@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Fichiers Windows : toujours en fin de ligne CRLF une fois extraits
+*.bat text eol=crlf
+*.iss text eol=crlf
